@@ -4,7 +4,7 @@
   "projectType": "application",
   "targets": {
     "build": {
-      "executor": "@nrwl/web:file-server",
+      "executor": "@nx/web:build",
       "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/my-app",
